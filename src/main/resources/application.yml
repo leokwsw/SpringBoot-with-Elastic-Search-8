@@ -10,3 +10,9 @@ spring:
   elasticsearch:
     repositories:
      enabled: true
+
+ elasticsearch:
+  uris: http://localhost:9200
+#  path-prefix: book
+#  password: password
+#  username: user

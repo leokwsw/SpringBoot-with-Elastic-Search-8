@@ -16,7 +16,7 @@ public class SwaggerMvcOpenApiFilterConfig implements WebMvcOpenApiTransformatio
   public OpenAPI transform(OpenApiTransformationContext<HttpServletRequest> context) {
     OpenAPI openApi = context.getSpecification();
     Server localServer = new Server();
-    localServer.setUrl(openApi.getServers().get(0).getUrl() + "/v1/");
+    localServer.setUrl(openApi.getServers().get(0).getUrl() + "/");
 
     openApi.setServers(Collections.singletonList(localServer));
     return openApi;

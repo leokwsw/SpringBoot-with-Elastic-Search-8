@@ -17,7 +17,7 @@ public class SwaggerConfig {
     return new Docket(DocumentationType.OAS_30)
         .select()
         .apis(RequestHandlerSelectors.any())
-        .paths(regex("/v1/.*"))
+        .paths(regex("/.*"))
         .build();
   }
 }
