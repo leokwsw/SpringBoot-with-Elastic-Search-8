@@ -1,0 +1,12 @@
+server:
+ forward-headers-strategy: framework
+ port: 8080
+
+spring:
+ mvc:
+  pathmatch:
+   matching-strategy: ant_path_matcher
+ data:
+  elasticsearch:
+    repositories:
+     enabled: true
