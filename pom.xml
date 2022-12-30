@@ -9,10 +9,10 @@
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
   <groupId>dev.leonardaprk</groupId>
-  <artifactId>SpringBoot-ElasticSerarh</artifactId>
+  <artifactId>SpringBoot-ElasticSearch</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>SpringBoot-ElasticSerarh</name>
-  <description>SpringBoot-ElasticSerarh</description>
+  <name>SpringBoot-ElasticSearch</name>
+  <description>SpringBoot-ElasticSearch</description>
   <properties>
     <java.version>11</java.version>
   </properties>

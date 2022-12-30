@@ -1,13 +1,13 @@
-package dev.leonardaprk.springbootelasticserarh;
+package dev.leonardaprk.springbootelasticsearch;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootElasticSerarhApplication {
+public class SpringBootElasticSearchApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(SpringBootElasticSerarhApplication.class, args);
+    SpringApplication.run(SpringBootElasticSearchApplication.class, args);
   }
 
 }

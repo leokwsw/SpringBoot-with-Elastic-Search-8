@@ -1,10 +1,10 @@
-package dev.leonardaprk.springbootelasticserarh;
+package dev.leonardaprk.springbootelasticsearch;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringBootElasticSerarhApplicationTests {
+class SpringBootElasticSearchApplicationTests {
 
   @Test
   void contextLoads() {
