@@ -24,8 +24,8 @@ public class BookServiceImpl implements BookService {
   @Autowired
   private BookRepository bookRepository;
 
-  @Autowired
-  private JestElasticsearchTemplate jestElasticsearchTemplate;
+//  @Autowired
+//  private JestElasticsearchTemplate jestElasticsearchTemplate;
 
   @Override
   public Optional<Book> getByIsbn(String isbn) {
@@ -46,9 +46,10 @@ public class BookServiceImpl implements BookService {
 
   @Override
   public List<Book> findByTitleAndAuthor(String title, String author) {
-    BoolQueryBuilder criteria = QueryBuilders.boolQuery();
-    criteria.must().addAll(List.of(QueryBuilders.matchQuery("authorName", author), QueryBuilders.matchQuery("title", title)));
-    return jestElasticsearchTemplate.queryForList(new NativeSearchQueryBuilder().withQuery(criteria).build(), Book.class);
+//    BoolQueryBuilder criteria = QueryBuilders.boolQuery();
+//    criteria.must().addAll(List.of(QueryBuilders.matchQuery("authorName", author), QueryBuilders.matchQuery("title", title)));
+//    return jestElasticsearchTemplate.queryForList(new NativeSearchQueryBuilder().withQuery(criteria).build(), Book.class);
+    return null;
   }
 
   @Override
